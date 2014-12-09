@@ -6,6 +6,10 @@ body {
   text-align: left;
 }
 
+h2 {
+  color: #000305;
+}
+
 a {
   text-decoration: none;
 
@@ -16,6 +20,7 @@ a:link, a:visited {
 
 }
 
+/*The color change for the hover over the top content box is affected here when the markup is changed*/
 a:hover, a:active {
   background-color: #CF5C3F;
   color: #FFF;
@@ -52,7 +57,7 @@ a:hover, a:active {
 
 .mainHeader nav ul li {
   float: left;
-  width: 25%;
+  width: 20%;
   /*background-color: red;*/
   display: inline;
 }
@@ -71,10 +76,6 @@ a:hover, a:active {
 }
 
 
-
-
-
-
 .mainContent {
   margin-top: 67%;
   line-height: 25px;
@@ -86,6 +87,10 @@ a:hover, a:active {
 .content {
   float: left;
   width: 70%;
+}
+
+.content p {
+  color: #000305;
 }
 
 .topcontent {
