@@ -30,6 +30,7 @@ a:hover, a:active {
   margin: 0 auto;
   width: 100%;
   clear: both;
+  background-color: #FFF;
 }
 
 .mainHeader img {
@@ -87,6 +88,7 @@ a:hover, a:active {
 .content {
   float: left;
   width: 70%;
+  /*background-color: #FFF;*/
 }
 
 .content p {
@@ -94,7 +96,7 @@ a:hover, a:active {
 }
 
 .topcontent {
-  background-color: red;
+  background-color: #FFF;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -128,7 +130,7 @@ a:hover, a:active {
 .top-sidebar {
   float: left;
   width: 21%;
-  background-color: red;
+  background-color: #FFF;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -156,12 +158,17 @@ a:hover, a:active {
 .bottom-sidebar {
   float: right;
   width: 21%;
-  background-color: red;
+  background-color: #FFF;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   margin: 0 0 2% 3%;
   padding: 2% 3%;
+}
+
+.icon {
+  border-radius: 50px;
+  background-color: white;
 }
 
 .mainFooter {
