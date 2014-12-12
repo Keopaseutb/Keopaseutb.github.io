@@ -6,14 +6,17 @@ body {
   text-align: left;
 }
 
+.heading {
+  margin-top: 200px;
+}
+
 h1 {
   font-size: 400%;
   color: #FFF;
   width: 60%;
-  /*text-align: center;*/
-  margin: 50px;
-  /*margin: 60px 0 0 50px;*/
-  line-height: 1.5;
+  text-align: center;
+  margin: auto;
+  line-height: 150%;
   letter-spacing: -2px;
   text-transform: uppercase;
   text-shadow: 2px -2px 5px black;
@@ -212,14 +215,16 @@ a:hover, a:active {
     font-size: 95%;
   }
 
+  .heading {
+  margin-top: 70px;
+  }
+
   h1 {
-  font-size: 200%;
+  font-size: 150%;
   color: #FFF;
   width: 60%;
-  /*text-align: center;*/
-  margin: 50px;
-  /*margin: 60px 0 0 50px;*/
-  line-height: .25;
+  margin: 35px auto;
+  line-height: .15;
   letter-spacing: -2px;
   text-transform: uppercase;
   text-shadow: 2px -2px 5px black;
