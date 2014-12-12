@@ -6,6 +6,25 @@ body {
   text-align: left;
 }
 
+h1 {
+  font-size: 400%;
+  color: #FFF;
+  width: 60%;
+  /*text-align: center;*/
+  margin: 50px;
+  /*margin: 60px 0 0 50px;*/
+  line-height: 1.5;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  text-shadow: 2px -2px 5px black;
+}
+
+h1:before {
+  content: '//';
+  padding-right: 4px;
+
+}
+
 h2 {
   color: #000305;
 }
@@ -16,14 +35,14 @@ a {
 }
 
 a:link, a:visited {
-  color: #CF5C3F;
+  color: #FFF;
 
 }
 
 /*The color change for the hover over the top content box is affected here when the markup is changed*/
 a:hover, a:active {
-  background-color: #CF5C3F;
-  color: #FFF;
+  background-color: #FFF;
+  color: #000;
 }
 
 .body {
@@ -88,7 +107,6 @@ a:hover, a:active {
 .content {
   float: left;
   width: 70%;
-  /*background-color: #FFF;*/
 }
 
 .content p {
@@ -194,6 +212,18 @@ a:hover, a:active {
     font-size: 95%;
   }
 
+  h1 {
+  font-size: 200%;
+  color: #FFF;
+  width: 60%;
+  /*text-align: center;*/
+  margin: 50px;
+  /*margin: 60px 0 0 50px;*/
+  line-height: .25;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  text-shadow: 2px -2px 5px black;
+  }
 
   .mainHeader img {
     width: 90%;
